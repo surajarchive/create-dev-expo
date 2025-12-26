@@ -1,0 +1,18 @@
+# source files (not needed at runtime)
+index.ts
+src/
+tsconfig.json
+
+# bun / node stuff
+node_modules
+bun.lockb
+pnpm-lock.yaml
+yarn.lock
+
+# git & misc
+.git
+.gitignore
+README.draft.md
+
+# logs
+npm-debug.log*
