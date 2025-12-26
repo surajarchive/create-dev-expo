@@ -1,15 +1,57 @@
-# cli-expo
 
-To install dependencies:
+# create-dev-backend
+
+CLI tool to create a backend project from a predefined template.
+
+
+## Usage
+
+### With Bun
 
 ```bash
-bun install
+bunx create-dev-expo
 ```
 
-To run:
+### With npm
 
 ```bash
-bun run index.ts
+npx create-dev-expo
 ```
 
-This project was created using `bun init` in bun v1.3.3. [Bun](https://bun.com) is a fast all-in-one JavaScript runtime.
+
+
+## What this command does
+
+1. Asks for a project name
+2. Copies the backend template
+3. Removes existing Git history
+4. Initializes a new Git repository
+5. Updates the project name in `package.json`
+6. Installs dependencies
+
+ 
+
+## After setup
+
+```bash
+cd <project-name>
+bun dev
+```
+
+ 
+
+## Requirements
+
+* Node.js 18+ or Bun
+* Git
+
+
+## Notes
+
+* The generated project is ready for local development.
+* No global installation required.
+
+
+## Author
+
+Suraj Vishwakarma
